@@ -5,6 +5,12 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR-854Prova", "CalculoIR-854Prova\CalculoIR-854Prova.csproj", "{291DC5E1-E4F8-40D8-A19A-4C8E4FDC2FC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR-854Prova.Domain", "CalculoIR-854Prova.Domain\CalculoIR-854Prova.Domain.csproj", "{2028F9C4-DCCC-43B3-B06B-C70CF24FE3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR-854Prova.Services", "CalculoIR-854Prova.Services\CalculoIR-854Prova.Services.csproj", "{0E5DE917-0AA2-4B6C-B3BA-81412F4207EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIR-854Prova.Presentation", "CalculoIR-854Prova.Presentation\CalculoIR-854Prova.Presentation.csproj", "{26B646EF-D5C4-4229-8B20-797921216ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{291DC5E1-E4F8-40D8-A19A-4C8E4FDC2FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{291DC5E1-E4F8-40D8-A19A-4C8E4FDC2FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{291DC5E1-E4F8-40D8-A19A-4C8E4FDC2FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2028F9C4-DCCC-43B3-B06B-C70CF24FE3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2028F9C4-DCCC-43B3-B06B-C70CF24FE3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2028F9C4-DCCC-43B3-B06B-C70CF24FE3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2028F9C4-DCCC-43B3-B06B-C70CF24FE3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5DE917-0AA2-4B6C-B3BA-81412F4207EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5DE917-0AA2-4B6C-B3BA-81412F4207EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5DE917-0AA2-4B6C-B3BA-81412F4207EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5DE917-0AA2-4B6C-B3BA-81412F4207EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B646EF-D5C4-4229-8B20-797921216ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B646EF-D5C4-4229-8B20-797921216ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B646EF-D5C4-4229-8B20-797921216ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B646EF-D5C4-4229-8B20-797921216ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

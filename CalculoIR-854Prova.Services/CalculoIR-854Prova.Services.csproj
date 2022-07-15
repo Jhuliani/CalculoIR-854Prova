@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CalculoIR_854Prova.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoIR-854Prova.Domain\CalculoIR-854Prova.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

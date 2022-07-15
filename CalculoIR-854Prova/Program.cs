@@ -1,12 +1,35 @@
-﻿using System;
+﻿using CalculoIR_854Prova.Presentation;
+using CalculoIR_854Prova.Services;
+using CalculoIR_854Prova.Services.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace CalculoIR_854Prova
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+         
+
+            ServiceCollection services = new();
+            ConfigureServices(services);
+
+            var serviceProvider = services.BuildServiceProvider();
+            var screen = serviceProvider.GetService<IScreen>();
+
+            screen.BegginApp();
+
+           
+        }
+
+        public static void ConfigureServices(IServiceCollection services)
+        {
+            services
+                .AddScoped<IScreen, Screen>()
+                .AddScoped<ITaxCalculator, TaxCalculator>();
+
+
         }
     }
 }
